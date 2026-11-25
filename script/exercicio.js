@@ -20,17 +20,14 @@
    ========================================================================== */
    
    //# Dados de entrada
-   preco_cafe = 8.50
-   qtd_cafe = 42
-
-   preco_bolo = 12.00
-   qtd_bolo = 18
-
-   taxa_operacional = 15.00
-   clientes_atendidos = 30
-
-   total_cookies = 125
-   capacidade_caixa = 6
+   const preco_cafe = 8.50
+   const qtd_cafe = 42
+   const preco_bolo = 12.00
+   const qtd_bolo = 18
+   const taxa_operacional = 15.00
+   const clientes_atendidos = 30
+   const total_cookies = 125
+   const capacidade_caixa = 6
 
    //#  Cálculos
    faturamento_bruto = (preco_cafe * qtd_cafe) + (preco_bolo * qtd_bolo)
